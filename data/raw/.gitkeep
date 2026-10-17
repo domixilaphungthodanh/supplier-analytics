@@ -1,0 +1,2 @@
+# Thư mục rỗng — giữ cấu trúc thư mục khi clone repo.
+# data/raw/ chứa file CSV gốc, KHÔNG được commit (xem .gitignore).
