@@ -1,0 +1,21 @@
+# Dữ liệu thô từ Kaggle — không commit
+data/raw/*
+!data/raw/.gitkeep
+
+# Database
+data/processed/*
+!data/processed/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Output
+# Giữ lại chart PNG vì đây là kết quả của dự án (dung lượng nhỏ)
+reports/*.csv
