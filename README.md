@@ -72,18 +72,3 @@ pip install -r requirements.txt
 | `docs/assumptions.md` | Giả định dùng để sinh lớp dữ liệu supply chain |
 | `docs/getting_data.md` | 4 cách tải dataset |
 | `docs/findings.md` | **Báo cáo kết quả phân tích** |
-
-## Đưa đầy đủ dự án lên GitHub
-
-1. Giải nén bộ dự án.
-2. Mở repo trên GitHub, chọn **Add file → Upload files**.
-3. Kéo toàn bộ nội dung bên trong thư mục này: `src`, `docs`, `sql`,
-   `notebooks`, `reports`, `data` và các file ở ngoài cùng.
-4. Đợi tải xong rồi chọn **Commit changes**.
-
-Không tải nguyên file ZIP lên làm mã nguồn. Giữ nguyên các thư mục con.
-Nếu kéo cả thư mục bao ngoài, code có thể bị đặt sâu thêm một cấp.
-Khi tải bằng trình duyệt, `.gitignore` không tự lọc file.
-
-Kiểm tra sau khi tải: phải mở được `src/etl/clean.py`, `sql/schema.sql`,
-`docs/00_START_HERE.md` và `reports/figures/01_supplier_top_spend.png`.
