@@ -11,6 +11,7 @@ from __future__ import annotations
 import os
 import subprocess
 import sys
+from pathlib import Path
 
 from src.etl.util import force_utf8_stdout
 
@@ -24,6 +25,7 @@ STEPS = [
 
 
 def main() -> int:
+    os.chdir(Path(__file__).resolve().parent)
     force_utf8_stdout()
     os.environ["PYTHONIOENCODING"] = "utf-8"
 
